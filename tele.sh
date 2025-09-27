@@ -34,8 +34,3 @@ curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_TOKEN/sendDocument" \
     -F chat_id=$CHAT_ID \
     -F document=@$LOCAL_PATH
 
-# Hapus file sementara
-rm $LOCAL_PATH
-
-rm -f /root/tele.sh
-
